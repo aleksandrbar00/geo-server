@@ -1,0 +1,36 @@
+{
+  "name": "geo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server 9000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "@phc/pbkdf2": "^1.1.14",
+    "agenda": "^2.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6-alpha.5",
+    "faker": "^4.1.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.4",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.0",
+    "sharp": "^0.23.1",
+    "socket.io": "^2.3.0",
+    "socket.io-emitter": "^3.1.1",
+    "upash": "^1.0.2",
+    "winston": "^3.2.1"
+  }
+}
